@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calcutaor</title>
+  </head>
+  <body>
+    <h2>
+      SPLI <br />
+      TTER
+    </h2>
+
+    <div class="wrapper">
+      <div class="pt-1">
+        <p>Bill</p>
+        <div class="input-wrapper">
+          <img
+            src="https://freesvg.org/storage/img/thumb/money_14.png"
+            alt="dollar sign"
+          />
+          <input class="first-input" type="number" />
+        </div>
+
+        <p>Select Tip %</p>
+        <div class="grid">
+          <div class="five all-btns">5%</div>
+          <div class="ten all-btns">10%</div>
+          <div class="fifteen all-btns">15%</div>
+          <div class="twfive all-btns">25%</div>
+          <div class="fifty all-btns">50%</div>
+          <!-- <div>Custom</div> -->
+        </div>
+
+        <p>Number of People</p>
+        <div class="input-wrapper">
+          <input type="number" class="second-input" />
+          <img
+            class="second"
+            src="https://freesvg.org/storage/img/thumb/user-icon.png"
+            alt="user icon"
+          />
+        </div>
+      </div>
+      <div class="pt-2">
+        <div class="flex">
+          <div>
+            <p class="white">Tip Amount</p>
+            <p class="small">/ person</p>
+          </div>
+          <div class="big-num tip-amount"></div>
+        </div>
+        <div class="flex">
+          <div>
+            <p class="white">Total</p>
+            <p class="small">/ person</p>
+          </div>
+          <div class="big-num total"></div>
+        </div>
+        <button class="btn1">CALCULATE</button>
+        <button class="btn-2">RESET</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
